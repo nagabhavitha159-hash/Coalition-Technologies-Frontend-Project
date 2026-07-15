@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+}
+
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  background-color: #34495e;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Cards */
+.profile-card,
+.diagnosis-history,
+.diagnostic-list,
+.lab-results {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Headings */
+h1, h2 {
+  margin-bottom: 10px;
+}
+.diagnosis-history {
+  height: 400px;
+}
+.item-box {
+  background: #f7f9fc;
+  border: 1px solid #e3e8ef;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.item-box h3 {
+  margin: 0 0 8px 0;
+}
+
+.item-box p {
+  margin: 4px 0;
+}

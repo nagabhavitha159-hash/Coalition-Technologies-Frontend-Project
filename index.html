@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coalition Test</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    
+    <aside class="sidebar">
+      <h2>Patients</h2>
+      <ul id="patient-list">
+        <li>Jessica Taylor</li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <section class="profile-card">
+        <h1 id="patient-name">Jessica Taylor</h1>
+        <p id="patient-dob">Date of Birth</p>
+        <p id="patient-gender">Gender</p>
+        <p id="patient-phone">Phone</p>
+        <p id="patient-address">Address</p>
+      </section>
+
+      <section class="diagnosis-history">
+        <h2>Diagnosis History</h2>
+        <canvas id="bpChart"></canvas>
+      </section>
+
+      <section class="diagnostic-list">
+        <h2>Diagnostic List</h2>
+        <div id="diagnostic-data"></div>
+      </section>
+
+      <section class="lab-results">
+        <h2>Lab Results</h2>
+        <div id="lab-data"></div>
+      </section>
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
